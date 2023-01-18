@@ -1,0 +1,70 @@
+.container {
+    max-width: 2040px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: #091833;
+    box-shadow: 0px 0px 12px #091833;
+    border-radius: 8px;
+    margin-top:-7em;
+    margin-left: 0.1em;
+    padding: 2rem 1rem;
+    font-weight: 700;
+    position: static;
+    
+    
+}
+
+.volume,.cap{padding-left: -6em;}
+
+.crypto-name{font-size: 1rem;color: #091833;font-weight: bolder;}
+.coin {
+    margin-left: -4rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    color: #242528;
+    box-shadow: 0px 0px 12px #18191b;
+    border-radius: 8px;
+    margin: 2rem 0.1em;
+    padding: .7rem 1rem;
+   
+}
+
+.row:hover {
+    transform: scale(1.04);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    background: #4fd6b9;
+    color: white;
+}
+
+img {
+    height: 40px;
+    margin-right: 8px;
+    width: auto;
+}
+.number{margin-right: 1em;}
+.icon {
+    display: flex;
+    align-items: center;
+    margin-left: -0.4em;
+    margin-right: 1.7em;
+}
+.hours{margin-right: 1em;}
+.price{margin-left: -2em;margin-right: 3.5em;}
+
+@media screen and (max-width: 720px) {
+    .volume,.cap {
+        display: none;
+    }
+}
